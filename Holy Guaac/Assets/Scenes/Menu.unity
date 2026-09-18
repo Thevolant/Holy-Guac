@@ -132,8 +132,6 @@ GameObject:
   - component: {fileID: 128708335}
   - component: {fileID: 128708334}
   - component: {fileID: 128708338}
-  - component: {fileID: 128708339}
-  - component: {fileID: 128708340}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -238,36 +236,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 128708333}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1921ed7ed67bef449b57964745f89481, type: 3}
+  m_Script: {fileID: 11500000, guid: 69548ab06dbd3bb4aafc9c5add6f90d2, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Menu
-  Levelname: Level1
---- !u!114 &128708339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 128708333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d214a64d502efe649a7065b04f6e0ed1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Gallery
-  GalleryName: Gallery
---- !u!114 &128708340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 128708333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfb5b8c39a193394ea398f1495e81bb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Story
-  storyname: Story
+  m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
+  Scenename: Level1
+  Scenename2: Gallery
+  Scenename3: Story
 --- !u!1 &128843568
 GameObject:
   m_ObjectHideFlags: 0
@@ -781,9 +755,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 128708339}
-        m_TargetAssemblyTypeName: Gallery, Assembly-CSharp
-        m_MethodName: StartGallery
+      - m_Target: {fileID: 128708338}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: Gallery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1053,8 +1027,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 128708340}
-        m_TargetAssemblyTypeName: Story, Assembly-CSharp
+      - m_Target: {fileID: 128708338}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
         m_MethodName: StartStory
         m_Mode: 1
         m_Arguments:
@@ -1187,7 +1161,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 128708338}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
         m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
@@ -1433,10 +1407,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Holy Guacamole! I Got Sent to Medieval Times Because A Portal Appeared
-    In My Closet and I Have to Find My Way Home or My Mom is Going to Ground Mee!
-    I Got Sent to Medieval Times Because A Portal Appeared In My Closet and I Have
-    to Find My Way Home or My Mom is Going to Ground Me
+  m_Text: 'Holy Guacamole! I Got Sent to Medieval Times Because A Portal Appeared
+    In My Closet and I Have to Find My Way Home or My Mom is Going to Ground Me! '
 --- !u!222 &1790150980
 CanvasRenderer:
   m_ObjectHideFlags: 0
