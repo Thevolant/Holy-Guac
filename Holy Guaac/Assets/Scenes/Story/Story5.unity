@@ -743,7 +743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
   Scenename: 
   Scenename2: 
-  Scenename3: 
+  Scenename3: Story6
 --- !u!1 &1478908172
 GameObject:
   m_ObjectHideFlags: 0
