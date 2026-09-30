@@ -6,6 +6,7 @@ public class SceneLoader : MonoBehaviour
     public string Scenename;
     public string Scenename2;
     public string Scenename3;
+    public string Scenename4;
 
     void Start()
     {
@@ -31,4 +32,10 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(Scenename3);
     }
+
+    public void StartCredits()
+    {
+        SceneManager.LoadScene(Scenename4);
+    }
+
 }
