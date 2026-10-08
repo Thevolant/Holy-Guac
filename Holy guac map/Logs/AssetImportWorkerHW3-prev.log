@@ -1,0 +1,379 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.7f1 (017862109af0) revision 96354'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Enterprise' Language: 'en' Physical Memory: 32454 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cgardner4864" at "2026-10-08T13:51:29.6903968Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-08T13:51:29Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW3
+-projectPath
+C:/Users/cgardner4864/Documents/GitHub/Holy-Guac/Holy guac map
+-logFile
+Logs/AssetImportWorkerHW3.log
+-srvPort
+54099
+-parentPid
+21828
+-analyticsCloudUserId
+2475879046101
+-analyticsLocalProjectId
+21b3dadeee59b0048aedcd49aa4fde60
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+e62f810343b40be27bccfa1e0e9823e8db3c45d3
+-cbmMachineId
+o6y3aD8r9/j/Q5p9E9OV5pnfgJ8=
+-licensingIpc
+LicenseClient-cgardner4864
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+15
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/cgardner4864/Documents/GitHub/Holy-Guac/Holy guac map
+C:/Users/cgardner4864/Documents/GitHub/Holy-Guac/Holy guac map
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [12716]  Target information:
+
+Player connection [12716]  * "[IP] 172.17.162.22 [Port] 0 [Flags] 2 [Guid] 3073858727 [EditorId] 3073858727 [Version] 1048832 [Id] WindowsEditor(7,CTE-D-BUS-05) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12716] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12716] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.5.7f1 (017862109af0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/cgardner4864/Documents/GitHub/Holy-Guac/Holy guac map/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA T1000 8GB (ID=0x1ff0)
+    Vendor:          NVIDIA
+    VRAM:            8015 MB
+    App VRAM Budget: 7247 MB
+    Driver:          32.0.15.9671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.7f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001392 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.296 seconds
+Domain Reload Profiling: 702ms
+	BeginReloadAssembly (104ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (226ms)
+		LoadAssemblies (101ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (166ms)
+				TypeCache.ScanAssembly (155ms)
+	FinalizeReload (297ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (75ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+Initializing Unity extensions:
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-cgardner4864"
+[Licensing::IpcConnector] LicenseClient-cgardner4864 channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cgardner4864-6000.5.7" at "2026-10-08T13:51:31.3787758Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 29088, path: "C:/Program Files/Unity/Hub/Editor/6000.5.7f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              dea27f4e2a774cbaa8309c0e9d8a1989
+  Correlation Id:          f1f7b936c8fcdadd6369157f742402ec
+  External correlation Id: 2812025138340643910
+  Machine Id:              o6y3aD8r9/j/Q5p9E9OV5pnfgJ8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-cgardner4864-6000.5.7" (connect: 0.00s, validation: 0.01s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cgardner4864-6000.5.7-notifications" at "2026-10-08T13:51:31.3932559Z"
+[Licensing::Module] Licensing Background thread has ended after 1.70s
+[Licensing::Module] Licensing is initialized (took 0.22s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475879046101-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.270 seconds
+Domain Reload Profiling: 532ms
+	BeginReloadAssembly (139ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (70ms)
+		LoadAssemblies (73ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+	FinalizeReload (271ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (52ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 64 unused Assets / (30.4 KB). Loaded Objects now: 676.
+Memory consumption went from 159.4 MB to 159.4 MB.
+Total: 2.943100 ms (FindLiveObjects: 0.033600 ms CreateObjectMapping: 0.012600 ms MarkObjects: 2.817400 ms  DeleteObjects: 0.077700 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-08T13:51:49.4914378Z
+  Time since last request: 169603.37012760000653 seconds.
+  importAddress: GUID: 343520c80c38fde448564717b4ef886b - Path: Assets/Free Pack/Textures/T_All_Banana_MetallicSmoothness.png - Importer: PreviewImporter
+Importing 'GUID: 343520c80c38fde448564717b4ef886b - Path: Assets/Free Pack/Textures/T_All_Banana_MetallicSmoothness.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 343520c80c38fde448564717b4ef886b' -> (Import Result ID: 'e2cb3676cac33652a32cb8f603d961d5') in 0.049 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=34410caace42ce7389c477e09e7fe337 DependenciesID=2508ae7abe9e761cb1fd83eeb56b2029 StaticDependenciesID=d54dae8d6a7bf445317ec781da801148 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-08T13:51:49.5413623Z
+  Time since last request: 0.0001459 seconds.
+  importAddress: GUID: 37bb0f4faccb646479266dfcb12348db - Path: Assets/Free Pack/Textures/T_FC_RK_Batch_02_AO.png - Importer: PreviewImporter
+Importing 'GUID: 37bb0f4faccb646479266dfcb12348db - Path: Assets/Free Pack/Textures/T_FC_RK_Batch_02_AO.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 37bb0f4faccb646479266dfcb12348db' -> (Import Result ID: 'b6f0545fa34574885c9c6dba75179982') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=28bec6e33b67db6a8e3c18e8fd405f41 DependenciesID=724a716b4ca16d77669702088d4f78c0 StaticDependenciesID=84a7fff89d744354d5a32963e0121fb7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-08T13:51:49.5503513Z
+  Time since last request: 0.0003183 seconds.
+  importAddress: GUID: cd590a632df82724a828c68b3b017b88 - Path: Assets/Free Pack/Textures/T_Bulk2_AO.png - Importer: PreviewImporter
+Importing 'GUID: cd590a632df82724a828c68b3b017b88 - Path: Assets/Free Pack/Textures/T_Bulk2_AO.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cd590a632df82724a828c68b3b017b88' -> (Import Result ID: '3f57951a0f97c6f6b8ccf30bb85acdae') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8c71a10ee8fda3273cfc54f2a5d6ac1b DependenciesID=353d0448664f88e4414506ae7faf57f9 StaticDependenciesID=72035cfc690ecf43186be550ebc73ab2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-08T13:51:49.5598593Z
+  Time since last request: 0.0002796 seconds.
+  importAddress: GUID: 0a54765a920bcf6498b00c3619d8a865 - Path: Assets/Free Pack/Textures/T_CS_Batch_01_Normal.png - Importer: PreviewImporter
+Importing 'GUID: 0a54765a920bcf6498b00c3619d8a865 - Path: Assets/Free Pack/Textures/T_CS_Batch_01_Normal.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0a54765a920bcf6498b00c3619d8a865' -> (Import Result ID: 'fa5c81e7d818f40971e2e128a70eb8d5') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6b80ad1d5e667d7ec9ad38af289f4b2a DependenciesID=41e7c93489cd93f52b2352fcd64ba8cf StaticDependenciesID=124651bd5b8ad70211c4820e0a9560e7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-08T13:51:49.5790505Z
+  Time since last request: 0.0000196 seconds.
+  importAddress: GUID: 90336de5a12971e419c4fa2213f2422a - Path: Assets/Free Pack/Textures/T_Dishes_BaseOp.png - Importer: PreviewImporter
+Importing 'GUID: 90336de5a12971e419c4fa2213f2422a - Path: Assets/Free Pack/Textures/T_Dishes_BaseOp.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 90336de5a12971e419c4fa2213f2422a' -> (Import Result ID: 'd676e3872158cc0a6968bd0186563a68') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7b59d4b3d59c06043a516a41a06c64cc DependenciesID=49a48d68b0b7584d9e4eb4bcc42d19ff StaticDependenciesID=f5f98aeb101118a43f79467385db71fd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-08T13:51:49.587311Z
+  Time since last request: 0.0004585 seconds.
+  importAddress: GUID: 0e263b0e77ba8ae4db74e55bfbec1da2 - Path: Assets/Free Pack/Textures/T_Fridge_AO.png - Importer: PreviewImporter
+Importing 'GUID: 0e263b0e77ba8ae4db74e55bfbec1da2 - Path: Assets/Free Pack/Textures/T_Fridge_AO.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0e263b0e77ba8ae4db74e55bfbec1da2' -> (Import Result ID: '30f009097136c76448901649f9b24748') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=26e847e5c784f37e04e6b0ceb6bfb8ca DependenciesID=2f7a1e40eb83556190751e441aa713ce StaticDependenciesID=85b2f23f15d691736bf7c45f01541c42 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-08T13:51:49.5962375Z
+  Time since last request: 0.0003451 seconds.
+  importAddress: GUID: 04028a7ee3e7dba45a43275b0427bf18 - Path: Assets/Free Pack/Textures/T_Dishes_Normal.png - Importer: PreviewImporter
+Importing 'GUID: 04028a7ee3e7dba45a43275b0427bf18 - Path: Assets/Free Pack/Textures/T_Dishes_Normal.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 04028a7ee3e7dba45a43275b0427bf18' -> (Import Result ID: 'fbca78636db83053e24e02e8865843a6') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9db58ed4816c68e1b38bdb94f6f3c868 DependenciesID=286c1d5cae1742f55583f9589bff42dc StaticDependenciesID=c79550e1e1ab185f4a50f32b8fee365d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-08T13:51:49.6090374Z
+  Time since last request: 0.0004905 seconds.
+  importAddress: GUID: 542bf4e5724e0d44a9db77926bcc12c0 - Path: Assets/Free Pack/Textures/T_Bulk2_MetallicSmoothness.png - Importer: PreviewImporter
+Importing 'GUID: 542bf4e5724e0d44a9db77926bcc12c0 - Path: Assets/Free Pack/Textures/T_Bulk2_MetallicSmoothness.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 542bf4e5724e0d44a9db77926bcc12c0' -> (Import Result ID: '7b8252bb4c5891ae8431b7eeb8f3bc09') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a3d3c2f81a155a1b80b77426825f54c0 DependenciesID=899a0d3ae45bd4af231cd4ba80e31d76 StaticDependenciesID=da8af3567284381e4c8f608915afd44f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-08T13:51:49.6200357Z
+  Time since last request: 0.0001773 seconds.
+  importAddress: GUID: 0b65fca745c4e9b409a6d29f581ab7ef - Path: Assets/Free Pack/Textures/T_Chair_V2_MetallicSmoothness.png - Importer: PreviewImporter
+Importing 'GUID: 0b65fca745c4e9b409a6d29f581ab7ef - Path: Assets/Free Pack/Textures/T_Chair_V2_MetallicSmoothness.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0b65fca745c4e9b409a6d29f581ab7ef' -> (Import Result ID: '69b8b47a22d390280d6c2f050f910b26') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=faad48f557fe5fb5ef5e323d2c6c9da5 DependenciesID=6bfad74364f3ce5baf61e5a7f5eb99ef StaticDependenciesID=d087ce79bdaece489d5de8d467e80fcd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-08T13:51:49.6284971Z
+  Time since last request: 0.0004106 seconds.
+  importAddress: GUID: d9a20e163caca9e4297d764a47ac651c - Path: Assets/Free Pack/Textures/T_EggplantDish_MetallicSmoothness.png - Importer: PreviewImporter
+Importing 'GUID: d9a20e163caca9e4297d764a47ac651c - Path: Assets/Free Pack/Textures/T_EggplantDish_MetallicSmoothness.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d9a20e163caca9e4297d764a47ac651c' -> (Import Result ID: 'b29ba3bfd0db331f0315ed6ea885a7d9') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b207fc090598a5846bb65f1ddeefa5a1 DependenciesID=68d25ab6d74d7ee3fd52a325af8aa910 StaticDependenciesID=80ee6908225118982f1b60ef080192d3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-08T13:51:49.6357329Z
+  Time since last request: 0.0004127 seconds.
+  importAddress: GUID: f0b125903d1c74c4f981b377d4b778f6 - Path: Assets/Free Pack/Textures/T_HH_Basket_04_BaOp.png - Importer: PreviewImporter
+Importing 'GUID: f0b125903d1c74c4f981b377d4b778f6 - Path: Assets/Free Pack/Textures/T_HH_Basket_04_BaOp.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f0b125903d1c74c4f981b377d4b778f6' -> (Import Result ID: '25d183d03db26f36fd493071175af423') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=321d92995d1a4b45992ff0ff14beef2b DependenciesID=97a4bc52892e687b3204d1e78fa04975 StaticDependenciesID=88097f269c4232cc1a6da7654985f7c2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-08T13:51:49.6447173Z
+  Time since last request: 0.0002846 seconds.
+  importAddress: GUID: 2f9164bc265ab4b4ca8db22a787d4e1e - Path: Assets/Free Pack/Textures/T_FC_RK_Batch_02_BaseOp.png - Importer: PreviewImporter
+Importing 'GUID: 2f9164bc265ab4b4ca8db22a787d4e1e - Path: Assets/Free Pack/Textures/T_FC_RK_Batch_02_BaseOp.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2f9164bc265ab4b4ca8db22a787d4e1e' -> (Import Result ID: '0417e4f37a487fcb99e755bab2d0965b') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=685b97680e2d0260cff18a7d63b1fceb DependenciesID=21d14f3a6302875e03dbc372218f7a05 StaticDependenciesID=21a02a832205cf01893dc476dca7e256 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-08T13:51:49.6540439Z
+  Time since last request: 0.0003296 seconds.
+  importAddress: GUID: a72a6792ffe8ef64abcad7a4f80941c1 - Path: Assets/Free Pack/Textures/T_BottleBulk_01_AO.png - Importer: PreviewImporter
+Importing 'GUID: a72a6792ffe8ef64abcad7a4f80941c1 - Path: Assets/Free Pack/Textures/T_BottleBulk_01_AO.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a72a6792ffe8ef64abcad7a4f80941c1' -> (Import Result ID: 'ecc0fc958e752705f4d429143f2c2b39') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f79bb010563da86077a3c03817189497 DependenciesID=b5a2668fe90d4aa2f29b819dc8bd575f StaticDependenciesID=cfe9bac0f41b152158f297d62103bef2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-08T13:51:49.6617553Z
+  Time since last request: 0.0002067 seconds.
+  importAddress: GUID: 30e36934e9562e449b11733eb49948fb - Path: Assets/Free Pack/Textures/T_HH_Basket_04_Normal.png - Importer: PreviewImporter
+Importing 'GUID: 30e36934e9562e449b11733eb49948fb - Path: Assets/Free Pack/Textures/T_HH_Basket_04_Normal.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 30e36934e9562e449b11733eb49948fb' -> (Import Result ID: '6397148a93f72493ec091a198b47c75f') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e1286642be05f0ce0cc9b0140e14996d DependenciesID=0b3b526c65e4fd1b951fa757ddf277a1 StaticDependenciesID=5e76465f2f3835ff296ee5f563818f77 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-08T13:51:49.6728605Z
+  Time since last request: 0.0004192 seconds.
+  importAddress: GUID: dab73ed9e3c3f6d4c98dccad2e18f7c6 - Path: Assets/Free Pack/Textures/T_Cereal_Bowl_BaseOp.png - Importer: PreviewImporter
+Importing 'GUID: dab73ed9e3c3f6d4c98dccad2e18f7c6 - Path: Assets/Free Pack/Textures/T_Cereal_Bowl_BaseOp.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dab73ed9e3c3f6d4c98dccad2e18f7c6' -> (Import Result ID: '01312b24279bf51816ef16f261bcefba') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b7e4e8bfa595d9b00d8a838574145f1e DependenciesID=aac81b7b753c842bd879efaa1f382e06 StaticDependenciesID=fced420296b6d3ac0a5703a6fa9d1712 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-08T13:51:49.6829042Z
+  Time since last request: 0.0002001 seconds.
+  importAddress: GUID: a7dd340d8ac282f448a1b93eb874df2b - Path: Assets/Free Pack/Textures/T_Bulk2_BaseOP.png - Importer: PreviewImporter
+Importing 'GUID: a7dd340d8ac282f448a1b93eb874df2b - Path: Assets/Free Pack/Textures/T_Bulk2_BaseOP.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a7dd340d8ac282f448a1b93eb874df2b' -> (Import Result ID: '7e7e7f9544995b329bc46f5137fcf143') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e46879620eebfd5f7e7451cd392e2cc5 DependenciesID=23511af2827d39d3be3bce7c93236fb2 StaticDependenciesID=b0a8831e4285bda2694644e26874084b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-08T13:51:49.6940782Z
+  Time since last request: 0.0002687 seconds.
+  importAddress: GUID: a904a5b25201c7a408a1fad6ebbdf8ad - Path: Assets/Free Pack/Textures/T_Chair_V2_AO.png - Importer: PreviewImporter
+Importing 'GUID: a904a5b25201c7a408a1fad6ebbdf8ad - Path: Assets/Free Pack/Textures/T_Chair_V2_AO.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a904a5b25201c7a408a1fad6ebbdf8ad' -> (Import Result ID: '5da39075ac82f04141ebc1be442109b4') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=50edb8d55b7183737ef15fcb3b2724a9 DependenciesID=f2e12560b53b13ef8b322f7bd31c0ae8 StaticDependenciesID=4d26385458e67d43c62ddc1a7a61b02a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-08T13:51:49.7041131Z
+  Time since last request: 0.0003074 seconds.
+  importAddress: GUID: 75cb882384b7f18419f0531ee6221c87 - Path: Assets/Free Pack/Textures/T_Grapes_02_AO.png - Importer: PreviewImporter
+Importing 'GUID: 75cb882384b7f18419f0531ee6221c87 - Path: Assets/Free Pack/Textures/T_Grapes_02_AO.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 75cb882384b7f18419f0531ee6221c87' -> (Import Result ID: 'f23eb0351880f0852055369cf30f36ba') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a70208a7997241c07478ae5c03fdf16 DependenciesID=33d9854b3d6549284f735e68af25f3a2 StaticDependenciesID=3c2f350a2f5fc00458f22b9328d46604 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
