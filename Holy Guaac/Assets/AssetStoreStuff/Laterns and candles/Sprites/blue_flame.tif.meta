@@ -5,7 +5,7 @@ AssetOrigin:
   productId: 85527
   packageName: Modular Medival Lanterns
   packageVersion: 1.0
-  assetPath: Assets/Laterns and candles/Sprites/blue_flame.tif
+  assetPath: Assets/AssetStoreStuff/Laterns and candles/Sprites/blue_flame.tif
   uploadId: 185448
 TextureImporter:
   internalIDToNameTable:
