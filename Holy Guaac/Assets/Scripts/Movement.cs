@@ -6,6 +6,7 @@ public class Movement : MonoBehaviour
     public InputActionAsset inputActions;
     public CharacterController playerCharacterController;
     public PlayerStats stats;
+    public Animator playerAnim;
 
     private InputAction playerMoveAction;
     private InputAction playerJumpAction;
