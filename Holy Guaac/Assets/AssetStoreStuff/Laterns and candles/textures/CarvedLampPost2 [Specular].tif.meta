@@ -71,5 +71,6 @@ AssetOrigin:
   productId: 85527
   packageName: Modular Medival Lanterns
   packageVersion: 1.0
-  assetPath: Assets/Laterns and candles/textures/CarvedLampPost2 [Specular].tif
+  assetPath: Assets/AssetStoreStuff/Laterns and candles/textures/CarvedLampPost2
+    [Specular].tif
   uploadId: 185448
