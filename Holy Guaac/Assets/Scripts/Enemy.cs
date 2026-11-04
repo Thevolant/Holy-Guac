@@ -23,7 +23,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        player = FindObjectOfType<Movement>().transform;
+        player = FindAnyObjectByType<Movement>().transform;
         agentBody.position = origin.position;
     }
 

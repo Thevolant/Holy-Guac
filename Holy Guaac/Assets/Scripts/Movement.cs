@@ -12,21 +12,26 @@ public class Movement : MonoBehaviour
     private InputAction playerJumpAction;
     private InputAction playerLookAction;
     private InputAction playerCursorLock;
+    private InputAction playerSprintAction;
 
     [SerializeField] public Transform player;
     [SerializeField] public Transform playerHead;
 
-    private float mouseSensitivity = .12f;
+    private float mouseSensitivity = .24f;
     private float xYaw;
     private float yPitch;
 
     private Vector3 move;
     private Vector3 jump;
+    private Vector3 finalMove;
 
     private Vector2 playerMoveAmount;
     private float verticalVelocity;
     private float buttonHeldFor;
     private float pressTime;
+
+    private bool sprintIsPressed;
+    private float adjustedWalkSpeed;
 
 
     private void OnEnable()
@@ -34,6 +39,7 @@ public class Movement : MonoBehaviour
         inputActions.FindActionMap("Player").Enable();
         playerJumpAction.performed += Jump;
         playerCursorLock.performed += OnLock;
+        playerSprintAction.started += Sprint;
     }
 
     private void OnDisable()
@@ -41,6 +47,7 @@ public class Movement : MonoBehaviour
         inputActions.FindActionMap("Player").Disable();
         playerJumpAction.performed -= Jump;
         playerCursorLock.performed -= OnLock;
+        playerSprintAction.started -= Sprint;
     }
 
     private void Awake()
@@ -48,28 +55,33 @@ public class Movement : MonoBehaviour
         playerMoveAction = inputActions.FindAction("Move");
         playerJumpAction = inputActions.FindAction("Jump");
         playerCursorLock = inputActions.FindAction("CursorLock");
+        playerSprintAction = inputActions.FindAction("Sprint");
+
+        adjustedWalkSpeed = stats.walkSpeed;
     }
 
     private void Update()
     {
         PlayerPhysics();
-        LookAroundPlayer();
-            verticalVelocity += stats.playerGravity * Time.deltaTime * 2;
+    }
 
+    private void FixedUpdate()
+    {
+
+        LookAroundPlayer();
+        if (!playerCharacterController.isGrounded) {
+            verticalVelocity += stats.playerGravity * Time.deltaTime * 2;
+        }
     }
 
     private void PlayerPhysics()
     {
-        Vector3 verticalMove = new Vector3(0f, verticalVelocity, 0f);
         playerMoveAmount = playerMoveAction.ReadValue<Vector2>();
-        Vector3 move = transform.right * playerMoveAmount.x + transform.forward * playerMoveAmount.y;
-
-        Vector3 finalMove = move * stats.walkSpeed;
-        playerCharacterController.Move(finalMove * Time.deltaTime);
+        move = transform.right * playerMoveAmount.x + transform.forward * playerMoveAmount.y;
 
         jump = new Vector3(0f, verticalVelocity, 0f);
-        playerCharacterController.Move(jump * Time.deltaTime);
-
+        finalMove = (move * adjustedWalkSpeed) + jump;
+        playerCharacterController.Move(finalMove * Time.deltaTime);
     }
 
     private void LookAroundPlayer()
@@ -105,6 +117,18 @@ public class Movement : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
+    }
+
+    private void Sprint(InputAction.CallbackContext context)
+    {
+        if (sprintIsPressed == true) {
+            sprintIsPressed = false;
+            adjustedWalkSpeed = stats.walkSpeed;
+        } else if (sprintIsPressed == false) {
+            sprintIsPressed = true;
+            adjustedWalkSpeed += 2f;
+        }
+        playerAnim.SetBool("sprintKeyPressed", sprintIsPressed);
     }
     
 
