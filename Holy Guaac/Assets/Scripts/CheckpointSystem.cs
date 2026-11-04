@@ -31,6 +31,7 @@ public class CheckpointSystem : MonoBehaviour
             {
                 lastCheckpoint = checkpointNum;
                 resetPoint = collider.gameObject.transform;
+                Debug.Log("checkpoint passed");
             }
         }
     }
