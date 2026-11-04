@@ -9,9 +9,6 @@ public class PlayerHealth : MonoBehaviour
     public GameObject player;
     public CheckpointSystem checkpoint;
 
-
-    private bool touchingHostile = false;
-
     private Scene currentScene;
 
     

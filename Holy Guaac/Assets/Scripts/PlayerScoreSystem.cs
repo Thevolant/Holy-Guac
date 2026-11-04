@@ -6,7 +6,7 @@ public class PlayerScoreSystem : MonoBehaviour
     [SerializeField] public int playerScore;
     public PlayerStats stats;
 
-    public TMP_Text scoreText;
+    //public TMP_Text scoreText;
 
     void Start()
     {
@@ -31,6 +31,6 @@ public class PlayerScoreSystem : MonoBehaviour
 
     void UpdateScoreUI()
     {
-        scoreText.text = "SCORE: " + playerScore;
+        //scoreText.text = "SCORE: " + playerScore;
     }
 }
