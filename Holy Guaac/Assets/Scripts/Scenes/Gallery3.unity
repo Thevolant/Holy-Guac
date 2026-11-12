@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4c062b6094ff08c49a18f23dd0084153, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1033,12 +1033,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049521146}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1752, y: -180.29999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1550073703}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1293665859
 GameObject:
@@ -1164,8 +1164,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69548ab06dbd3bb4aafc9c5add6f90d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
-  Scenename: Gallery2
-  Scenename2: Menu
+  Scenename: Gallery
+  Scenename2: Gallery2
   Scenename3: 
   Scenename4: 
 --- !u!1 &1365417334
@@ -1350,6 +1350,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 741794455}
+  - {fileID: 1049521149}
   m_Father: {fileID: 1293665863}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1433,7 +1434,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7bde544d10c7f0f4db7499360c1ebca7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 69362de9a41d4f54188c4f004a249ec4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1642,7 +1643,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7bde544d10c7f0f4db7499360c1ebca7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 69362de9a41d4f54188c4f004a249ec4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1742,4 +1743,3 @@ SceneRoots:
   - {fileID: 1013323497}
   - {fileID: 794616979}
   - {fileID: 1293665863}
-  - {fileID: 1049521149}
